@@ -315,6 +315,7 @@ func (p *IosxeProvider) Resources(ctx context.Context) []func() resource.Resourc
 		NewCTSResource,
 		NewDHCPResource,
 		NewDot1xResource,
+		NewEnableResource,
 		NewErrdisableResource,
 		NewEVPNResource,
 		NewEVPNInstanceResource,
